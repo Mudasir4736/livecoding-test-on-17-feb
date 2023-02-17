@@ -1,0 +1,86 @@
+.hello{
+    font-size: 50px;
+    /* font-weight: bold; */
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.hello:hover{
+    color: yellowgreen;
+    font-size: 60px;
+}
+.container{
+    display: grid;
+  
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    gap: 10px;
+}
+.item{
+ color: white;
+ text-align: center;
+ padding: 20px;
+ font-size: 30px;
+    box-shadow: 0px 0px 10px rgb(22, 20, 20);
+    background-color: rgba(245, 102, 50, 0.871);
+}
+.item:hover{
+    background-color: brown;
+}
+.item1{
+    grid-column: span 12;
+}
+.item2{
+    grid-column: span 6;
+}
+
+.item3{
+    grid-column: span 6;
+}
+.item4{
+    grid-column: span 4;
+}
+.item5{
+    grid-column: span 4;
+}
+.item6{
+    grid-column: span 4;
+}
+.item7{
+    grid-column: span 3;
+}
+.item8{
+    grid-column: span 3;
+}
+.item9{
+    grid-column: span 3;
+}
+.item10{
+    grid-column: span 3;
+}
+.item11{
+    grid-column: span 2;
+}
+.item12{
+    grid-column: span 2;
+}
+.item13{
+    grid-column: span 2;
+}
+.item14{
+    grid-column: span 2;
+}
+.item15{
+    grid-column: span 2;
+}
+.item16{
+    grid-column: span 2;
+}
+
+@media only screen and (max-width:540px){
+   
+.item{
+    grid-column: span 12;
+}
+}
